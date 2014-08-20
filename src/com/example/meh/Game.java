@@ -42,7 +42,7 @@ public class Game extends Activity {
 					word = myStringArray[arrayNum];
 					words.setText(word);
 					start.setText("Enter");
-				new CountDownTimer(20000, 1000) {
+				new CountDownTimer(60000, 1000) {
 
 				     public void onTick(long millisUntilFinished) {
 				         mTextField.setText("seconds remaining: " + millisUntilFinished / 1000);
@@ -66,6 +66,7 @@ public class Game extends Activity {
                         arrayNum = new Random().nextInt(myStringArray.length);
     					word = myStringArray[arrayNum];
     					words.setText(word);
+    					words.setTextSize(30);  
     					user.setTextColor(Color.BLACK);
                     }
 					else

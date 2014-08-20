@@ -32,10 +32,10 @@ public final class R {
     }
     public static final class id {
         public static final int action_settings=0x7f090010;
-        public static final int autoCompleteTextView1=0x7f090003;
+        public static final int autoCompleteTextView1=0x7f090002;
         public static final int best=0x7f090004;
         public static final int best_score=0x7f090005;
-        public static final int clock=0x7f090001;
+        public static final int clock=0x7f090003;
         public static final int display_score=0x7f09000d;
         public static final int high_score=0x7f09000c;
         public static final int no=0x7f09000f;
@@ -46,7 +46,7 @@ public final class R {
         public static final int textView1=0x7f09000a;
         public static final int third=0x7f090009;
         public static final int third_score=0x7f090008;
-        public static final int words=0x7f090002;
+        public static final int words=0x7f090001;
         public static final int yes=0x7f09000e;
     }
     public static final class layout {
