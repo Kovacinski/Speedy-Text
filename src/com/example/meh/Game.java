@@ -16,7 +16,7 @@ import android.widget.TextView;
 
 public class Game extends Activity {
 	boolean clicked = false;
-	String[] myStringArray = new String[]{"apple","boat","cow","donut","tricky"};
+	String[] myStringArray = new String[]{"apple","boat","cow","donut","tricky", "test", "hair", "zebra", "coding", "visual"};
 	String word;
 	int arrayNum, score = 0;
 	
